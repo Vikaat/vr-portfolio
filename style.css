@@ -9,6 +9,7 @@
 
 body {
     background: #1f232d;
+    color: white;
 }
 
 .header{
@@ -43,4 +44,37 @@ body {
 
 .navbar a:hover, .navbar a.active {
     color: gold;
+}
+
+.home{
+    position: relative;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-img img{
+    max-width: 450px;
+
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font: weight 700;
+}
+
+.home-content h3 span {
+    color:gold;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
 }
