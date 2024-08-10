@@ -5,3 +5,4 @@ var typed = new Typed(".multibio", {
     backDelay: 1000,
     loop: true
 })
+
